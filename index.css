@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.8rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#dificuldade-section,
+#jogo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#adivinhar-section {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 0 1rem;
+    padding: 0.8rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #535151;
+}
+
+input,
+select {
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #6d6c6c;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: #535151;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #535151;
+}
+
+button {
+    width: 120px;
+    height: 45px;
+    background-color: #535151;
+    ;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #d1d1d1;
+}
+
+#resultado {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: rgb(157, 57, 57);
+}
+
+#jogo-section,
+#resetar-btn {
+    display: none
+}
+
+#resetar-btn {
+    margin: 0 auto;
+}
